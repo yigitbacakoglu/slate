@@ -37,7 +37,7 @@ This endpoint retrieves all reservations with pagination.
 
 Parameter | Default | Required | Description
 ------------ | ------ | ------- | -----------
-**from_date** | Begining of last month | No | Format: YYYY-MM-DD`. If provided, reservations after this date will be retrieved.
+**from_date** | Begining of last month | No | Format: `YYYY-MM-DD`. If provided, reservations after this date will be retrieved.
 **per_page** | 10 | No | Number of reservations per page.
 **page** | 1 | No | Number of current page.
 **reservation_number** | - | No | Used to get a specific reservation. It can be whether HotelRunner or Channel reservation code.
